@@ -1,3 +1,52 @@
+body {
+  background-color: #ffbb99;
+  width: 0;
+  margin: 0px;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+.header {
+  width: 100%;
+  padding-bottom: 7%;
+}
 .nav {
-  background-image: img('img/pink_polka_dots.png');
+width: 100%;
+/*padding-bottom: 40%;*/
+}
+
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 38%;
+  overflow: hidden;
+  background-color: #ff9966;
+}
+
+.nav li a {
+  position: relative;
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li a:hover {
+  background-color: #ffccb3;
+}
+
+#hanger {
+  position: absolute;
+  margin-top: -43px;
+  margin-left: 563px;
+}
+
+h1 {
+  text-align: center;
+}
+
 }
