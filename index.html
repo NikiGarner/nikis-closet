@@ -6,6 +6,7 @@
     <title>Niki's Closet</title>
   </head>
   <body>
+    <div id="wrap">
     <div class="header">
       <h1>Niki's Closet</h1>
       <img id="hanger" src="img/hanger.png" alt="Black hanger icon" />
@@ -17,26 +18,57 @@
         <li><a href="#">Shop</a></li>
         <li><a href="#">Contact Us</a></li>
         <li><a href="#">Blog</a></li>
+        <li><a href="#">See your Cart</a></li>
       </ul>
     </div>
 
       <div class="main">
-        <div class="image">
-          <img src="img/dress.jpg" alt="Sailor inspired dress in Navy blue with cream and navy striped trimming around the arm holes." />
+
+        <div class="info">
+          <ul>
+            <li><a href="#">Women</a></li>
+            <li><a href="#"> >Dresses</a></li>
+            <li><a href="#"> >Hello Sailor Dress</a></li>
+          </ul>
         </div>
+        <div class="product">
         <h2>Hello, Sailor Dress</h2>
         <p>
           Get ready to board the ship and say, "Aye, aye Caption!". This sailor inspired dress comes in navy blue with cream and navy striped trimming around the arms. Great for running errands or a fun weekend date.
         </p>
         <ul>
-          <li>Length: 34'</li>
+          <li>Length: 34"</li>
           <li>Back zipper</li>
           <li>Pockets</li>
           <li><a href="sizeChart.html">Size Chart</a></li>
         </ul>
-
+        <br></br>
+        <p><em>$78.00</em></p>
+        <form class="order" action="index.html" method="post">
+            <label for="size">Size: </label>
+            <select id="size">
+              <option>XS</option>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+            </select>
+            <br></br>
+            <label for="qty">Qty: </label>
+            <input type="text">
+            <button type="submit" name="button">Buy</button>
+        </form>
+        <h3>Suggested Companion Pieces</h3>
+        <div class="items">
+          <img src="img/shoe.jpeg" alt="Women's White ballet flat" />
+          <img src="img/lipstick.jpg" alt="Red lipstick in a gold tube with red flowers" />
+          <img src="img/sunglasses.jpg" alt="Rayban sunglasses" />
+        </div>
       </div>
-
+      <div class="dressImage">
+        <img src="img/dress.jpg" alt="Sailor inspired dress in Navy blue with cream and navy striped trimming around the arm holes."/>
+        <p class="status">Only a few left!</p>
+      </div>
     </div>
-  </body>
+  </div>
+</body>
 </html>

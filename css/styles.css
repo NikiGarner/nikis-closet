@@ -5,11 +5,24 @@ body {
   width: 100%;
   font-family: sans-serif;
 }
+footer {
+  background-color: #ffbb99;
+  width: 0;
+  margin: 0px;
+  width: 100%;
+  font-family: sans-serif;
+}
+#wrap {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #ffbb99;
+}
 
 .header {
   width: 100%;
-  padding-bottom: 7%;
+  /*padding-bottom: %;*/
 }
+
 .nav {
 width: 100%;
 /*padding-bottom: 40%;*/
@@ -18,8 +31,7 @@ width: 100%;
 .nav ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
-  padding-left: 38%;
+  padding-left: %;
   overflow: hidden;
   background-color: #ff9966;
 }
@@ -40,13 +52,77 @@ li a:hover {
 }
 
 #hanger {
-  position: absolute;
-  margin-top: -43px;
-  margin-left: 563px;
+  margin-top: -20px;
+  margin-left: 400px;
 }
 
 h1 {
   text-align: center;
 }
 
+.dressImage {
+  /*margin: 50px;*/
+  float: left;
+  border: 10px dotted darkgrey;
+  margin-top: 40px;
+  margin-left: 30px;
+}
+
+.status {
+  position: absolute;
+  border: 4px groove #00cc99;
+  border-radius: 5px;
+  padding: 5px;
+  color: #00cc99;
+  margin-top: -600px;
+  margin-left: 20px;
+
+}
+
+h2 {
+  border-width: 50%;
+  border-bottom: 5px solid black;
+  text-align: center;
+}
+
+h3 {
+  border-width: 50%;
+  border-bottom: 5px solid black;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.info ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  overflow: hidden;
+}
+
+.info li a {
+  position: relative;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.product {
+  width: 45%;
+  float: right;
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.order {
+  padding-top: 30px;
+}
+
+.items img{
+  box-sizing: border-box;
+  margin: 5px;
+  border: 5px dotted darkgrey;
+  float: left;
 }
