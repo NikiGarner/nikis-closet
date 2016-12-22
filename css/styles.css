@@ -31,13 +31,14 @@ width: 100%;
 .nav ul {
   list-style-type: none;
   margin: 0;
-  padding-left: %;
+  padding-left: 0;
+  max-width: 100%;
   overflow: hidden;
   background-color: #ff9966;
 }
 
 .nav li a {
-  position: relative;
+  /*position: relative;*/
   float: left;
   display: block;
   color: white;
@@ -51,9 +52,10 @@ li a:hover {
   background-color: #ffccb3;
 }
 
-#hanger {
-  /*margin-top: -20px;
-  margin-left: 400px;*/
+.hanger {
+  display: block;
+  margin: 0px auto;
+  padding-bottom: 20px;
 }
 
 h1 {
