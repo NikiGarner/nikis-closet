@@ -13,7 +13,6 @@ footer {
   font-family: sans-serif;
 }
 #wrap {
-  width: 75%;
   margin: 0 auto;
   background-color: #ffbb99;
 }
@@ -31,13 +30,14 @@ width: 100%;
 .nav ul {
   list-style-type: none;
   margin: 0;
-  padding-left: %;
+  padding-left: 0;
+  max-width: 100%;
   overflow: hidden;
   background-color: #ff9966;
 }
 
 .nav li a {
-  position: relative;
+  /*position: relative;*/
   float: left;
   display: block;
   color: white;
@@ -51,9 +51,10 @@ li a:hover {
   background-color: #ffccb3;
 }
 
-#hanger {
-  margin-top: -20px;
-  margin-left: 400px;
+.hanger {
+  display: block;
+  margin: 0px auto;
+  padding-bottom: 20px;
 }
 
 h1 {
@@ -125,4 +126,28 @@ h3 {
   margin: 5px;
   border: 5px dotted darkgrey;
   float: left;
+}
+
+table {
+  margin: 20px;
+  border-collapse: collapse;
+  border: 2px solid lightgrey;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+th , td {
+  border: 1px dotted darkgrey;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+th,
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
 }
